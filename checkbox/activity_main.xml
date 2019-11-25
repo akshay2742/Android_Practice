@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Ordering App"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="126dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply Coupon"
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="30dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="130dp"/>
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burgur"
+        android:textSize="30dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="130dp"/>
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ice-cream"
+        android:textSize="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="130dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="140dp"/>
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="30dp"
+        android:layout_marginLeft="140dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:textSize="30dp"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:textSize="35dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"/>
+
+
+</RelativeLayout>
